@@ -1,0 +1,84 @@
+# PP–NF Unified Model
+
+**Pressure-Phase / Null-Field Framework**  
+A unified two-component ontological model for physics from atomic to cosmological scales.
+
+## Overview
+
+The PP–NF framework posits that spacetime is exclusively occupied by two mutually exclusive components: **PP** (positive-pressure, compressive) and **NF** (null-field, expansive). These components obey strict **non-co-occupancy** — they cannot share the same spatial volume — and interact solely through **force-density conservation**:
+
+\[
+x + y = |1|
+\]
+
+where \(x\) is the fractional PP force density and \(y\) is the fractional NF displacement. Their opposition drives a **volumetric oscillation** (volume swing), which serves as the sole dynamical degree of freedom of the system.
+
+This single mechanism provides a unified description of:
+- Atomic structure and chemical periodicity
+- Galactic rotation curves
+- Cosmological expansion and total energy budget
+- Cosmic Microwave Background (CMB) acoustic spectrum
+
+without invoking dark matter halos, a separate cosmological constant, or an inflaton field.
+
+## Core Theoretical Elements
+
+- **N40 Hierarchy Bridge**: Dimensionless ratio \(N_{40} = 4.3 \times 10^{40}\) derived from CODATA constants linking atomic-scale equilibria (Penning-trap electron compression, Bohr radius) to the observable universe horizon. This bridge closes the cosmological energy ledger:
+  \[
+  E_{\text{osc}} = E_{\text{sym}} = \rho_{\text{crit}} V c^2
+  \]
+  via the red-shifted swing frequency \(\omega = \omega_0 / N_{40}\), where \(\omega_0 = c / a_0\).
+
+- **Oscillating Underlay**: Classical standing-wave displacement field in the NF elastic medium, described by spherical Bessel functions \(R_{n\ell}(r) \propto j_\ell(k_{n\ell} r)\). This underlay manifests as:
+  - Atomic orbitals (s, p, d, f shapes from spherical harmonics \(Y_{\ell m}\))
+  - Revised periodic table: radial fan geometry centered on Fe-56 (optimal PP–NF equilibrium)
+  - Galactic dip + wall stiffness \(S(r)\)
+  - CMB acoustic resonances
+
+- **Single Global Parameter**: \(\alpha\) (or \(\Delta_{PN}\)), calibrated on the SPARC rotation-curve database. This parameter simultaneously governs wall stiffness, environmental R_dip scaling, cosmic swing amplitude, and CMB power spectrum amplitudes.
+
+- **Environment Dependence**: NF expansion is fastest in PP-poor regions, naturally producing higher local expansion rates in voids and suppressed late-time clustering — consistent with 2026 DESI DR2, DES Y6, and KBC void analyses.
+
+## Repository Contents
+
+- `physics/` — Foundational equations, force-density swing, N40 calibration module
+- `galactic/` — SPARC data parser, R_dip–S(r) environmental coupling, global fitting pipeline
+- `cosmology/` — Volumetric oscillator background, two-derivation energy closure (Chapter VII)
+- `boltzmann/` — Minimal forward integrator for CMB TT/EE/TE spectra and lensing convergence (swing-driven perturbations)
+- `visualizations/` — Revised periodic table (radial fan with oscillating underlay), cosmic cycle diagram, orbital isosurfaces, \(D_\ell\) comparison plots
+- `manual/` — Complete PP–NF Manual v1.0 (foundations, derivations, quantitative models, and falsification criteria)
+- `pre-registration/` — X1–X9 pre-registered predictions and associated kill conditions
+
+## Current Implementation Status (April 2026)
+
+- Galactic pipeline: Environment-dependent R_dip → wall stiffness fully implemented with SPARC loader
+- Cosmological energy: Analytic closure of oscillatory momentum and checkerboard symmetry derivations via N40
+- CMB forward model: Leading-order reproduction of Planck acoustic peaks (fundamental at \(\ell \approx 220\)) with TT, EE, TE, and lensing components
+- Hubble tension: Natural late-time environmental resolution via non-uniform swing progress, consistent with observed void-driven H₀ gradient
+- Visualization suite: Oscillating underlay, revised periodic table, and three-phase cosmic cycle diagram
+
+## Publications & Pre-Registration
+
+See `manual/PP-NF_Manual_v1.0.md` for the complete theoretical exposition (including Chapter VII on cosmological energy) and `pre-registration/` for the full list of falsifiable predictions.
+
+The framework is designed for rigorous cross-scale testing: a single value of \(\alpha\) must simultaneously satisfy galactic rotation curves, cosmic expansion history, and CMB power spectrum features.
+
+## Citation
+
+If you use this repository in your work, please cite:
+
+> Chrisman, M. (2026). PP–NF: A Unified Two-Component Ontology for Physics Across Scales. GitHub repository `pp_nf_unified_model`.
+
+## License
+
+MIT License — see `LICENSE` for details.
+
+---
+
+**Repository Topics**: `theoretical-physics`, `unified-theory`, `alternative-cosmology`, `modified-gravity`, `dark-matter-alternative`, `cmb-modeling`, `periodic-table-revision`
+
+---
+
+This version maintains a formal, academic tone suitable for researchers while remaining clear and structured. It emphasizes rigor, falsifiability, and cross-scale consistency without hype.
+
+Would you like any further adjustments, such as adding a "Roadmap" section, expanding the technical summary, or including specific citation formatting (e.g., arXiv-style)?
